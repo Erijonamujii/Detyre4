@@ -35,11 +35,32 @@ ul{
 }
 
 .bgfoto{
+    background-image: url(photo1.jpg) ;
+    background-size: 100% 100%;
     display: flex;
     justify-content: center;
     background-color: pink ;
     
 }
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+
+.butoni_bg{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
 .latestvideo{
     display: flex;
     justify-content: space-between;
@@ -80,6 +101,7 @@ ul{
 
 
 .permifooter{
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -88,3 +110,37 @@ footer{
     background-color: palevioletred;
     
 }
+
+
+.f{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: lightblue;
+}
+.ff{
+    display: flex;
+    flex-direction: row;
+}
+.ff img{
+    
+    width: 40px;
+    height: 40px;
+}
+
+.footermain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.fundi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: antiquewhite;
+   
+}
+
